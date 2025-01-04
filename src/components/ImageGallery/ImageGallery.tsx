@@ -4,8 +4,8 @@ import { Image } from "../App/App";
 import s from "./ImageGallery.module.css";
 
 interface ImageGalleryProps {
-  images: Image[]; // Масив зображень
-  onImageClick: (image: Image) => void; // Функція для обробки кліку
+  images: Image[];
+  onImageClick: (image: Image) => void;
 }
 
 const ImageGallery: React.FC<ImageGalleryProps> = ({

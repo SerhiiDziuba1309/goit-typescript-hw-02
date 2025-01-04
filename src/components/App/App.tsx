@@ -9,7 +9,6 @@ import s from "./App.module.css";
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-// Тип для одного зображення
 export interface Image {
   id: string;
   urls: {
@@ -23,7 +22,6 @@ export interface Image {
   likes: number;
 }
 
-// Тип для відповіді API
 interface ApiResponse {
   results: Image[];
 }
